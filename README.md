@@ -19,9 +19,13 @@ Face à une baisse de fréquentation, l'entreprise met en place une campagne pro
 
 
 Nettoyer et préparer les données.
+
 Étudier les profils des clients et leurs comportements d'achat.
+
 Évaluer l'impact de la campagne promotionnelle.
+
 Identifier les segments de clientèle les plus contributeurs aux revenus.
+
 Formuler des recommandations à partir des résultats obtenus.
 
 
@@ -31,17 +35,29 @@ Formuler des recommandations à partir des résultats obtenus.
 
 
 funpark\_campaign\_analysis/
+
 │
+
 ├── data/
+
 │   ├── raw/          # Données brutes
+
 │   └── processed/    # Données nettoyées
+
 │
+
 ├── notebooks/
+
 │   ├── 01\_data\_cleaning.ipynb
+
 │   └── 02\_analysis.ipynb
+
 │
+
 ├── .gitignore
+
 ├── requirements.txt
+
 └── README.md
 
 
@@ -92,8 +108,11 @@ Le notebook 02\_analysis.ipynb est consacré :
 
 
 La dépense moyenne par transaction apparaît plus élevée après la campagne promotionnelle.
+
 Les distributions des dépenses suggèrent une augmentation globale des montants dépensés.
+
 Toutefois, les tests statistiques ne mettent pas en évidence de différence significative des revenus moyens avant et après la campagne.
+
 De plus, aucun impact significatif sur l'activité quotidienne n'a pu être démontré.
 
 
@@ -103,7 +122,9 @@ De plus, aucun impact significatif sur l'activité quotidienne n'a pu être dém
 
 
 Les billets FAMILLE représentent une part limitée des ventes mais génèrent une part importante des revenus grâce à une dépense moyenne plus élevée.
+
 Les clients VIP contribuent fortement aux revenus malgré un volume de ventes plus faible.
+
 Les billets STANDARD constituent la principale source de revenus en raison de leur poids dans les ventes.
 
 
@@ -122,7 +143,9 @@ Les revenus de FUNPARK reposent donc principalement sur :
 
 
 Les données décrivent des transactions et non l'affluence réelle des parcs.
+
 Certaines informations importantes susceptibles d'influencer l'activité (météo, saisonnalité, événements externes) ne sont pas disponibles.
+
 Des données complémentaires seraient nécessaires afin d'évaluer plus précisément l'efficacité de la campagne.
 
 
@@ -132,7 +155,9 @@ Des données complémentaires seraient nécessaires afin d'évaluer plus précis
 
 
 Maintenir et valoriser l'offre VIP.
+
 Renforcer l'attractivité des offres destinées aux familles.
+
 Améliorer la collecte des données afin de faciliter les analyses futures.
 
 
